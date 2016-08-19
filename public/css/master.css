@@ -1,0 +1,55 @@
+body{
+  font-family: "Courier New", Courier, monospace;
+  border: 5px double black;
+}
+
+.container{
+  margin: 0 10%;
+}
+.logo-brand{
+  margin-left: 59%;
+}
+
+.navbar{
+  border-top: 5px solid black;
+  border-bottom: 2px solid black;
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline;
+  text-transform: uppercase;
+  margin: 0 05%;
+  padding: 0 1%;
+}
+
+.active{
+  color: #f00;
+}
+
+.main{
+  margin-top: 2%;
+}
+
+.main-image{
+  background-image: url("./../img/main-img.jpg");
+  background-color: #fcf;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 349px;
+  width: 100%;
+}
+
+.content p{
+  text-align: center;
+}
+
+.note{
+  border: 3px solid #ccc;
+  margin: 5%;
+  padding: 2%;
+  text-align: center;
+  word-spacing: 7px;
+  line-height: 1.5em;
+}
